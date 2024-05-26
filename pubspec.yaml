@@ -1,0 +1,28 @@
+name: nexgo_print
+description: "NexGo print test"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  firebase_crashlytics: ^3.5.6
+  firebase_core: ^2.31.1
+  firebase_database: ^10.5.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true

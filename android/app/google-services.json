@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "858689270187",
+    "project_id": "test-1cef8",
+    "storage_bucket": "test-1cef8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:858689270187:android:7194c797eb36796e33e2ee",
+        "android_client_info": {
+          "package_name": "com.example.nexgo_print"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2GA83VahNjEUnPmahOvsDGGvFArziOZk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
