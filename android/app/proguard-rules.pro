@@ -48,7 +48,7 @@
 
 
 
-    #-ignorewarning
+    -ignorewarning
     -dump class_files.txt
     -printseeds seeds.txt
     -printusage unused.txt
