@@ -45,6 +45,11 @@ android {
     buildTypes {
         release {
             signingConfig signingConfigs.debug
+            multiDexEnabled true
+            minifyEnabled true
+            shrinkResources true
+            zipAlignEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
 
