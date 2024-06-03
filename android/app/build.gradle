@@ -46,14 +46,14 @@ android {
         release {
             signingConfig signingConfigs.debug
             multiDexEnabled true
-            minifyEnabled true
-            shrinkResources true
-            zipAlignEnabled true
+            minifyEnabled false
+            shrinkResources false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
 
     sourceSets.main {
+        java.srcDirs += 'src/main/kotlin'
         jniLibs.srcDir 'libs'
         jni.srcDirs = [] //disable automatic ndk-build call
     }
